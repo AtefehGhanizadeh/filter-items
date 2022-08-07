@@ -1,0 +1,59 @@
+{
+    "productsData":[
+
+        {
+            "id":1,
+            "title":"watch product",
+            "price":1,
+            "image":"assets/images/images/image1.jpg"
+        },
+
+        {
+            "id":2,
+            "title":"shirt product",
+            "price":2,
+            "image":"assets/images/images/image2.jpg"
+        },
+
+        {
+            "id":3,
+            "title":" shirt product",
+            "price":3,
+            "image":"assets/images/images/image3.jpg"
+        },
+        {
+            "id":4,
+            "title":"jewlery product",
+            "price":4,
+            "image":"assets/images/images/image4.jpg"
+        },
+
+        {
+            "id":5,
+            "title":"jewlery product",
+            "price":5,
+            "image":"assets/images/images/image5.jpg"
+        },
+        {
+            "id":6,
+            "title":"gown product",
+            "price":6,
+            "image":"assets/images/images/image6.jpg"
+        },
+        {
+            "id":7,
+            "title":"shirt product",
+            "price":7,
+            "image":"assets/images/images/image7.jpg"
+        },
+        {
+            "id":8,
+            "title":"jewlery product",
+            "price":8,
+            "image":"assets/images/images/image8.jpg"
+        }
+
+    ]
+
+}
+

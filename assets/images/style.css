@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+
+body{
+    position: relative;
+}
+
+:root{
+
+    --mainColor:rgb(230, 194, 241);
+
+    --darkMainColor:rgb(167, 64, 199);
+
+    --mainGray:rgb(247, 247, 247);
+}
+
+header{
+    background-color:var(--mainColor) ;
+
+    height: 14rem;
+
+    position: sticky;
+
+    top: 0;
+}
+
+
+
+.container{
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 6rem;
+    height: 100%;
+}
+
+.header-content{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content:space-between;
+
+    height: 100%;
+
+    align-items:center;
+
+    gap:2rem;
+}
+
+.tags{
+
+    width: 50%;
+
+    min-width:20rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+input{
+
+    width: 30%;
+
+    min-width: 10rem;
+
+    padding: .5rem;
+
+    border-radius: 1rem;
+}
+
+
+input:focus{
+
+    border: 2px solid var(--darkMainColor);
+}
+
+.tags a{
+
+    color: var(--darkMainColor);
+
+    padding: 0.5rem;
+
+    border: 1px solid var(--darkMainColor);
+    border-radius: 1rem;
+
+    font-weight: bold;
+}
+
+.tags a:hover{
+
+    color: var(--darkMainColor);
+
+    background-color: white;
+
+}
+
+section{
+
+    background-color:var(--mainGray);
+
+    height: 100%;
+}
+
+.products-content{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+
+    column-gap: 4rem;
+
+    row-gap: 4rem;
+    
+}
+
+.product{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--lightGray);
+    border-radius: 8px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 6px 1px var(--lightGray);
+    overflow: hidden;
+    padding-bottom: 0.7rem;
+
+    align-items: center;
+
+    background-color:white;
+    
+
+
+
+}
+
+.product-image{
+
+    width: 100%;
+
+    max-width: 20rem;
+    
+    text-align: center;
+    
+    min-height: 70%;
+
+    
+}
+
+.product-image img{
+
+    width: 70%;
+
+    height:15rem;
+
+    border-bottom: 1px solid var(--lightGray);
+}
+
+
+.product-information{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.product-information span{
+
+    text-align: center;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+}
+
