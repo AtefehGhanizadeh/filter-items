@@ -16,7 +16,7 @@ const filters={
 
 document.addEventListener("DOMContentLoaded" , ()=>{
     
-    axios.get("http://localhost:3000/productsData").then(res=>{
+    axios.get("http://192.168.1.103:3000/productsData").then(res=>{
 
         allProductsData=res.data
 
